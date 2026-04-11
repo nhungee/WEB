@@ -1,6 +1,7 @@
 
 # Tổng quan về lập trình Web
 ## 1. Các vị trí công việc trong ngành
+---
 - **Frontend**: Làm về giao diện người dùng.
     ### Giai đoạn 1: 
     #### 1. HTML
@@ -38,7 +39,7 @@
     - Next.js(framework của react)
     - SEO, performance
     
-    
+---
 - **Backend**: Làm về dữ liệu và máy chủ.
   ### Giai đoạn 1: Nền tảng
   #### 1. Ngôn ngữ (chọn 1): học luôn JS để sync với frontend
@@ -77,8 +78,36 @@
     - API bảo mật
     - Upload file
     - Deploy (Vercel, Render, VPS)
-- **Fullstack**: Làm cả hai.
+___
+## 2. Xu hướng phát triển của lập trình web
+### 1. AI-First Development (Kỷ nguyên AI dẫn dắt) : AI không còn là "công cụ hỗ trợ" mà trở thành hặt nhân của quy trình phát triển
+- Hỗ trợ lập trình: Copilot hay mô hình AI viết code và giúp tối ưu , kiểm thử
+- Edge AI: thay vì gửi yêu cầu về server, các mô hình học máy như tensorFlow.js chyaaj trực tiếp trên trình duyệt, cho phép, nhận diện hình ảnh, giọng nói và xử lý ngôn ngữ thực tế tại máy khách.
+- Cá nhân hóa: AI phân tích hành vi người dùng để tự động thay đổi giao diện và lộ trình trải nghiệm
+### 2. Sự thống trị của Meta-frameworks & TypeScript : việc viết JavaScript thuần cho các dự án chuyên nghiệp là lạc hậu
 
-## 2. Cơ chế hoạt động của Website
-- Trình duyệt (Client) gửi yêu cầu.
-- Máy chủ (Server) trả kết quả.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
