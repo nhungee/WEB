@@ -113,6 +113,15 @@ ___
 | **Rust** | Khó, | "Tốc độ cực nhanh, an toàn" | "WebAssembly, Hệ thống lõi" |
 | **Go** | Trung bình | Xử lý song song tốt | "Microservices, Cloud" |
 | **PHP** | Dễ | "Phổ biến (WordPress, Laravel)" | "Website bán hàng, tin tức" |
+# 2. Cơ chế hoạt động của website
+## 1. Mô hình client-server
+### 1. Mô hình client - server là mô hình giúp máy tính giao tiếp truyền tải dữ liệu cho nhau
+    - client và server về bản chất thì nó là hai máy tính giao tiếp và truyền tải hai dữ liệu cho nhau:
+   Máy tính đóng vai trò là máy khách - clinet : với vai trò máy khách chúng sẽ không cung cấp tài nguyên đến các máy tính khác mà chỉ sử dụng tài nguyên được cung cấp từ máy chủ. Một client trong mô hình này có thể là một server cho mô hình khác, tùy thuộc nhu cầu người sử dụng.
+  ### 2. Máy tính đóng vai trò là máy chủ - server : là máy tính có khả năng cung cấp tài nguyên và các dịch vụ đến máy tính khác trong hệ thống mạng. server đóng vai trò hỗ trợ cho hoạt động của máy tính khách_ client diên xra hiệu quả hơn.
+
+## 2. Request 
+## 3. Response 
 
 
 
