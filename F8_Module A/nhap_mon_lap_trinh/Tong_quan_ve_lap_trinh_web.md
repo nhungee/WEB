@@ -1,1 +1,118 @@
+# 1. Lập trình web là gì?
+- Lập trình web là công việc của một Web Developer - Lập trình viên web. Lập trình web bao gồm việc nhận dữ liệu và yêu cầu từ bộ phận thiết kế, sau đó sử dụng ngôn ngữ lập trình để tạo ra một hệ thống website hoàn chỉnh có cơ sở dữ liệu, có tương tác với người dùng.
+# 2. Các vị trí công việc trong ngành.
+## 2.1 Front-end Developer
+- Front-end Developer là gì? Front-end developer là người đảm nhiệm việc thiết kế giao diện của một website, xây dựng, bảo trì, đảm bảo tính tương thích của web với các trình duyệt khác nhau, đồng thời gia tăng trải nghiệm cho người dùng.
+### A. Mô tả công việc
+#### **Phát Triển Sản Phẩm**
+  - Xây dựng và phát triển giao diện web application cho nền tảng giao dịch sử dụng React/Next.js hoặc Vue/Nuxt.js
+  - Phát triển các tính năng giao dịch: order book, trading charts, portfolio management, transaction history
+  - Triển khai giao diện cho các module: KYC/Onboarding, Wallet, Deposit/Withdrawal, Account Management
+  - Tối ưu hiệu năng ứng dụng để xử lý real-time data updates với độ trễ thấp
+  - Maintain và phát triển thêm tính năng cho các hệ thống hiện có (cả React và Vue)
+#### **Trải Nghiệm Người Dùng**
+  - Đảm bảo UI/UX nhất quán, trực quan và dễ sử dụng trên mọi thiết bị
+  - Triển khai responsive design cho web và mobile web
+  - Phối hợp chặt chẽ với đội ngũ UI/UX Designer để hiện thực hóa thiết kế
+  - Thực hiện A/B testing và cải tiến trải nghiệm người dùng dựa trên data
+#### **Kỹ Thuật & Chất Lượng**
+  - Viết code sạch, có cấu trúc tốt, dễ bảo trì và mở rộng
+  - Xây dựng và maintain component library/design system
+  - Viết unit tests, integration tests đảm bảo chất lượng code
+  - Tham gia code review và đóng góp cải thiện quy trình phát triển
+#### **Tích Hợp & Phối Hợp**
+  - Tích hợp với Backend APIs (RESTful, WebSocket) để hiển thị dữ liệu real-time
+  - Phối hợp với Backend team để định nghĩa API contracts
+  - Làm việc với QA team để đảm bảo chất lượng sản phẩm trước khi release
+### B. Yêu cầu:
+#### **Kinh Nghiệm**
+  - 3+ năm kinh nghiệm phát triển Frontend với React.js và/hoặc Vue.js
+  - Có kinh nghiệm làm việc với Next.js hoặc Nuxt.js trong môi trường production
+  - Kinh nghiệm xây dựng ứng dụng Single Page Application (SPA) quy mô lớn
+  - Từng làm việc trong môi trường Agile/Scrum
+#### **Chuyên Môn Kỹ Thuật**
+  - Thành thạo JavaScript/TypeScript, hiểu sâu về ES6+ features
+  - Kinh nghiệm với React Hooks, Context API, Redux hoặc các state management khác (Zustand, Recoil)
+  - Và/hoặc kinh nghiệm với Vue 3, Composition API, Pinia/Vuex
+  - Thành thạo HTML5, CSS3, SASS/SCSS và CSS-in-JS (Styled Components, Emotion)
+  - Kinh nghiệm với Tailwind CSS hoặc các UI frameworks (Element Plus, Vuetify, Ant Design)
+  - Hiểu biết về RESTful APIs và WebSocket cho real-time communication
+  - Kinh nghiệm với Git và quy trình CI/CD cơ bản
+  - Hiểu biết về responsive design và cross-browser compatibility
+#### **Kỹ Năng Bổ Sung**
+  - Kỹ năng debug và troubleshooting tốt
+  - Khả năng làm việc độc lập và trong team
+  - Chủ động học hỏi công nghệ mới
+  - Kỹ năng giao tiếp tốt bằng tiếng Việt; tiếng Anh đọc hiểu tài liệu kỹ thuật
+#### **Ưu Tiên Nếu Có**
+
+#### ***Kinh Nghiệm Ngành***
+  
+  - Kinh nghiệm phát triển ứng dụng cho sàn giao dịch, fintech, hoặc ngân hàng
+  - Từng làm việc với trading platforms hoặc ứng dụng tài chính
+  - Hiểu biết về cryptocurrency, blockchain hoặc thị trường tài chính
+#### ***Kỹ Thuật Nâng Cao***
+
+  - Kinh nghiệm với React Native hoặc phát triển mobile app
+  - Thành thạo các thư viện charting: TradingView, Lightweight Charts, D3.js, Recharts
+  - Kinh nghiệm với Web Workers, Service Workers cho performance optimization
+  - Hiểu biết về micro-frontend architecture
+  - Kinh nghiệm với testing frameworks: Jest, React Testing Library, Cypress
+  - Kiến thức về Web Security: XSS, CSRF, Content Security Policy
+  - Kinh nghiệm với performance monitoring tools: Lighthouse, Web Vitals
+#### ***Khác***
+  - Đóng góp cho open-source projects
+  - Có portfolio hoặc GitHub profile với các dự án cá nhân
+  - Kinh nghiệm với Figma hoặc các design tools
+
+## 2.2 Back_end Developer
+- Back-end developer làm gì? Công việc của Back-end developer gắn liền với Front-end developer. Vì một website không thể nào chỉ có giao diện mà không thực hiện được chức năng. Nhiệm vụ của Back-end developer chính là tạo ra chức năng cho một website.
+### A. Mô tả công việc
+  - Thiết kế & phát triển backend Golang cho các hệ thống về an ninh mạng và công nghệ cao (microservices, API Gateway, real-time processing).
+  - Xây dựng pipeline xử lý dữ liệu từ hệ thống sensor, crawler với độ trễ thấp.
+  - Tích hợp message broker (Kafka/NATS), gRPC, WebSocket cho real-time communication.
+  - Thiết kế, thao tác cơ sở dữ liệu và giao tiếp mạng (SOCKS, VPN, …).
+  - Làm việc chặt chẽ với team AI/ML.
+### B. Yêu cầu: 
+  - Tốt nghiệp bằng Cử nhân hoặc tương đương trong các lĩnh vực Kỹ thuật phần mềm, Khoa học máy tính, Hệ thống thông tin, An toàn thông tin, Điện tử viễn thông, Tự động hoá.
+  - Có hơn 6 tháng viết mã backend bằng ngôn ngữ Golang; thành thạo Go concurrency (goroutine, channel), context, error handling.
+  - Có kinh nghiệm lập trình mạng (TCP, UDP, gPRC, Websocket, …).
+  - Có kinh nghiệm làm việc với ít nhất một trong các cơ sở dữ liệu PostgreSQL, MongoDb, Cassandra, Elasticsearch; và ít nhất một trong các message queue Kafka, NATS, RabbitMQ.
+  - Hiểu biết về Docker, CI/CD.
+  - An ninh mạng: Rà quét, đánh giá lỗ hổng bảo mật của tài nguyên internet. Phân tích mã độc.
+  - Công nghệ cao: Hiểu biết về một trong các mảng RF (radio frequency), radar, UAV.
+## 2.3 Full-stack Developer
+- Full-stack developer là gì? Full-stack developer là người thành thạo cả hai công việc Front-end và Back-end. Trở thành một lập trình viên web Full-stack nghĩa là bạn phải đảm nhiệm việc phát triển website trong suốt vòng đời của một dự án.
+### A. Mô tả công việc
+  - Dẫn dắt team phát triển WebApp (NodeJS + ReactJS)
+  - Làm việc trực tiếp với CEO/khách hàng, đảm bảo delivery
+  - Thiết kế kiến trúc hệ thống, đưa ra giải pháp kỹ thuật
+  - Hands-on coding, review code, xử lý các issue phức tạp
+  - Quản lý task, phân công công việc, theo dõi tiến độ
+  - Xây dựng quy trình (Git, CI/CD) và phát triển team
+### B. Yêu cầu: 
+  - Kinh nghiệm Fullstack
+  - Thành thạo NodeJS, NestJS, ReactJS, NextJS, TypeScript
+  - Hiểu REST API, system design, database (PostgreSQL/MySQL)
+  - Có kinh nghiệm CI/CD, Docker
+  - Tư duy ownership, giao tiếp tốt, làm việc trực tiếp với khách hàng
+  - Ưu tiên: đã làm outsource, biết tiếng Anh/Nhật, từng build system từ 0→1
+## 2.4 Business Analyst
+### A. Mô tả công việc:
+### B. Yêu cầu: 
+## 2.5 Database Admin
+### A. Mô tả công việc:
+### B. Yêu cầu: 
+## 2.6 Chuyên gia phát triển ứng dụng di động
+### A. Mô tả công việc:
+### B. Yêu cầu: 
+## 2.7 Làm freelancer hoặc tự thành lập công ty riêng về lập trình web
+### A. Mô tả công việc:
+### B. Yêu cầu: 
+
+
+
+
+
+
 
