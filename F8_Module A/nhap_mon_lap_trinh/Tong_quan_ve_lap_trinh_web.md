@@ -101,16 +101,47 @@
 ### A. Mô tả công việc:
 ### B. Yêu cầu: 
 ## 2.5 Database Admin
-### A. Mô tả công việc:
-### B. Yêu cầu: 
 ## 2.6 Chuyên gia phát triển ứng dụng di động
-### A. Mô tả công việc:
-### B. Yêu cầu: 
 ## 2.7 Làm freelancer hoặc tự thành lập công ty riêng về lập trình web
-### A. Mô tả công việc:
-### B. Yêu cầu: 
 
+# 3. lộ trình backend, frontend (thuần -> lib, framework)
+## A. Lộ trình Frontend
+### Giai đoạn 1. Nền tảng "Thuần" (The Core)
+- HTML5/CSS3: Nắm vững cấu trúc DOM, Semantic HTML, CSS Box Model, Flexbox, và Grid. Học cách tạo layout responsive không phụ thuộc vào thư viện CSS.
+- Vanilla JavaScript (ES6+): Đây là phần quan trọng nhất. Phải hiểu sâu về:
+  - Hoisting, Closures, Scope, Prototypes.
+  - Asynchronous JavaScript (Callbacks, Promises, Async/Await).
+  - Fetch API và tương tác với DOM.
+### Giai đoạn 2. Công cụ và Hệ sinh thái
+- Version Control: Git (Branching, Merging, Pull Requests).
+- Package Managers: NPM, Yarn, hoặc PNPM.
+- Build Tools/Bundlers: Hiểu cách hoạt động của Vite hoặc Webpack.
+### Giai đoạn 3. Thư viện và Framework
+- Chọn Framework chính: React (Thư viện), Vue, hoặc Angular (Framework). Tôi khuyên em nên bắt đầu với React vì cộng đồng lớn và cơ hội việc làm cao.
+- TypeScript: Bắt buộc phải học để viết code an toàn, dễ bảo trì (Static typing).
+- State Management: Redux, Zustand hoặc Context API.
+- Meta-Frameworks (Tiếp theo): Next.js (cho React) hoặc Nuxt (cho Vue) để tối ưu SEO và Server-Side Rendering (SSR).
+## B. Lộ trình Backend:
+### Giai đoạn 1: Nền tảng và Kiến thức cơ bản
+- HTTP/HTTPS: Hiểu cách internet hoạt động, các phương thức (GET, POST, PUT, DELETE), Status Codes, Header.
+- Cấu trúc dữ liệu và Giải thuật: Nắm vững để tối ưu hiệu suất (Complexity: Big O notation).
+- Cơ sở dữ liệu (Database):
+  - Relational (SQL): PostgreSQL, MySQL. Hiểu về Schema, Joins, Indexing, Transactions (ACID).
+  - Non-Relational (NoSQL): MongoDB hoặc Redis (cache).
 
+### Giai đoạn 2: Ngôn ngữ và Framework
+- Chọn một stack ngôn ngữ chính để đào sâu:
+  - Node.js: Express (thư viện) -> NestJS (framework kiến trúc module chặt chẽ).
+  - Go (Golang): Phù hợp hệ thống hiệu năng cao, concurrency
+  - Java/Spring Boot: Chuẩn mực cho hệ thống Enterprise.
+  - Python/FastAPI hoặc Django: Phù hợp nếu hướng tới AI/Data.
+
+### Giai đoạn 3: Kiến trúc hệ thống (System Design)
+- API Design: RESTful API hoặc GraphQL.
+- Authentication/Authorization: JWT, OAuth2, Session management.
+- Caching & Optimization: Sử dụng Redis để lưu cache, tối ưu truy vấn database.
+- Message Queues: RabbitMQ hoặc Kafka (khi cần xử lý bất đồng bộ).
+- Containerization: Docker và cơ bản về CI/CD.
 
 
 
