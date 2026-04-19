@@ -1,0 +1,20 @@
+/* Làm cho toàn bộ chữ trên trang có font dễ nhìn hơn */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Màu nền xám nhạt */
+    padding: 20px; /* Tạo khoảng cách xung quanh */
+    line-height: 1.6; /* Tăng khoảng cách dòng cho dễ đọc */
+}
+
+/* Làm tiêu đề nổi bật hơn */
+h1 {
+    color: #2c3e50; /* Màu xanh đậm */
+    border-bottom: 2px solid #2c3e50; /* Gạch chân tiêu đề */
+}
+
+/* Tùy chỉnh danh sách */
+ul {
+    background: white;
+    padding: 20px;
+    border-radius: 8px; /* Bo tròn góc */
+}
